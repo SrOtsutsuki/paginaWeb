@@ -1,0 +1,35 @@
+.bg-dark{
+    background-color: #212121 !important ;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.prueba{
+    background-color: tomato;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+
+.nav-link:hover{
+    color: grey !important;
+}
+
+li{
+    padding: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Merriweather', serif !important;
+}
+
+
+.navbar-collapse{
+    z-index: 9999 !important;
+}

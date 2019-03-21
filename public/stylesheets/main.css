@@ -1,0 +1,103 @@
+.parallax{
+width: 100%;
+height: 100vh;
+/* background-image: url("/images/om/om_tunel.jpg"); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+
+}
+
+.flex{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.flexH{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+.titulo{
+color: white;  
+}
+
+.portada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media only screen and (min-width: 370px) and (max-width: 573px) {
+    .portada {
+      width: 80%;
+      margin-top: 2%;
+    }
+  }
+
+  video{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+
+  #aboutUs{
+    border-bottom: 1px solid white;
+  }
+
+.imagenEnlace{
+  height: 300px;
+}
+
+
+
+.enlace{
+  width: 100%;
+  height: 100%;
+}
+
+.barraSeparadora{
+  width: 100%;
+  background-color: black;
+  
+}
+
+.producto:hover{
+  filter: blur(3px);
+}
+
+.barraSeparadora > span{
+  font-size: 25px;
+  color: white;
+}
+
+.barraSeparadora > a{
+  font-size: 25px;
+}
+
+.cookies{
+
+position:fixed;
+bottom: 0;
+z-index: 9999;
+width: 100%;
+display:none;
+
+}
+
